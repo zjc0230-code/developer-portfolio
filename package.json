@@ -8,5 +8,8 @@
     "dev": "npm run sync:site && npx --yes serve web -l 4321",
     "build": "npm run sync:site",
     "preview": "npx --yes serve web -l 4321"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
   }
 }
