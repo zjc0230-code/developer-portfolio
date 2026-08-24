@@ -1,15 +1,10 @@
 {
   "name": "developer-portfolio",
   "private": true,
-  "version": "1.0.0",
-  "description": "个人作品集：docs 知识库 + web 静态 HTML",
+  "version": "2.0.0",
+  "description": "杰斯的AI实验室",
   "scripts": {
-    "sync:site": "node scripts/sync-site.mjs",
-    "dev": "npm run sync:site && npx --yes serve web -l 4321",
-    "build": "npm run sync:site",
+    "dev": "npx --yes serve web -l 4321",
     "preview": "npx --yes serve web -l 4321"
-  },
-  "dependencies": {
-    "pptxgenjs": "^4.0.1"
   }
 }
